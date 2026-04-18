@@ -132,6 +132,27 @@ body {
     transition: background 0.3s, colour 0.3s;
 }
 
+/* Logo container (image + text aligned) */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* space between image and text */
+}
+
+/* Logo image */
+.logo img {
+    width: 40px;   /* small version */
+    height: 40px;
+    object-fit: contain;
+}
+
+/* Logo text */
+.logo span {
+    color: #00e0ff;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
 /* Hover effect */
 .nav-links a:hover {
     background-color: #00e0ff;
