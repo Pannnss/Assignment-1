@@ -1,0 +1,139 @@
+/* 16/04/2026 */
+/* Applies a global reset to remove default spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles the overall page background and default text */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* Ocean blue gradient background */
+    background: linear-gradient(to bottom, #0a2a43, #0f4c75, #00cfcf);
+
+    color: #e6f7ff; /* light cyan text for readability */
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Main heading styling */
+h1 {
+    text-align: centre; /* centres the heading */
+    font-size: 2.5em;
+    margin-bottom: 20px;
+
+    color: #00e0ff; /* bright cyan */
+}
+
+/* Subheadings (section titles) */
+h2 {
+    margin-bottom: 10px;
+    color: #66e0ff; /* softer cyan */
+}
+
+/* Section container styling */
+.section {
+    background-color: rgba(0, 0, 50, 0.6); /* semi-transparent dark blue */
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+
+    /* subtle glow effect */
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.2);
+}
+
+/* Paragraph text */
+p {
+    font-size: 1.05em;
+}
+
+/* List styling */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Container for image links */
+.links {
+    display: flex; /* aligns images side-by-side */
+    gap: 20px; /* spacing between images */
+    margin-top: 10px;
+}
+
+/* Image styling */
+.links img {
+    width: 150px;
+    height: auto;
+
+    border-radius: 10px;
+    border: 2px solid #00e0ff;
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for images */
+.links img:hover {
+    transform: scale(1.1); /* slightly enlarges image */
+    box-shadow: 0 0 15px #00ffff;
+}
+
+body {
+    padding-top: 70px; /* pushes content down below navbar */
+}
+
+/* Navigation bar fixed at the very top */
+.navbar {
+    background: rgba(0, 20, 40, 0.95); /* dark ocean blue */
+    padding: 10px 20px;
+
+    position: fixed;  /* locks it to the screen */
+    top: 0;
+    left: 0;
+    width: 100%;      /* makes it span full width */
+
+    z-index: 1000;    /* keeps it above everything */
+
+    box-shadow: 0 2px 10px rgba(0, 255, 255, 0.2);
+}
+
+/* Container to align items */
+.nav-container {
+    display: flex;
+    justify-content: space-between; /* logo left, links right */
+    align-items: center;
+}
+
+/* Logo styling */
+.logo {
+    color: #00e0ff;
+    font-size: 1.5em;
+}
+
+/* Navigation links list */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+/* Individual links */
+.nav-links a {
+    text-decoration: none;
+    color: #e6f7ff;
+    font-size: 1.1em;
+    padding: 5px 10px;
+    border-radius: 5px;
+
+    transition: background 0.3s, colour 0.3s;
+}
+
+/* Hover effect */
+.nav-links a:hover {
+    background-color: #00e0ff;
+    color: #002b40;
+}
