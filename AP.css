@@ -158,3 +158,21 @@ body {
     background-color: #00e0ff;
     color: #002b40;
 }
+
+fieldset {
+   background-color: rgba(0, 0, 50, 0.6); /* semi-transparent dark blue */
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+fieldset:hover {
+  transform: scale(1.01);
+}
+legend {
+  border: 2px solid #2a7db8;
+  padding: 5px 12px;
+  border-radius: 6px;
+  background-color: rgba(27, 25, 42, 0.674);
+  font-weight: bold;
+}
