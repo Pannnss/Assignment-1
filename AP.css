@@ -231,6 +231,36 @@ legend {
   border: 2px solid #2a7db8;
   padding: 5px 12px;
   border-radius: 6px;
-  background-color: rgba(27, 25, 42, 0.674);
+  background-color: rgba(27, 25, 42, 0.9);
   font-weight: bold;
+}
+.sublegend {
+    border: none;
+    font-weight: none;
+    background-color: none;
+
+}
+fieldset {
+  background-color: rgba(0, 0, 50, 0.6); /* semi-transparent dark blue */
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+
+    /* subtle glow effect */
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.2);
+  transition: transform 0.2s ease;
+}
+.subfield {
+    background-color:rgba(0, 0, 50, 0.6) ;
+    transition: none;
+    box-shadow: none;
+    padding: 5px;
+    margin-bottom: auto;
+}
+
+fieldset:hover {
+  transform: scale(1.02);
+}
+.subfield:hover {
+    transform: none;
 }
