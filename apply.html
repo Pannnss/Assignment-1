@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Group project for the WellTech Digital Health & Wellness Provider. This page provides the application to apply for a jobn at the company.">
+    <meta name="keywords" content="HTML5, CSS layout">
+    <meta name="author" content="Robin Ellul Romero">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--I got this from my teammate Ayden's site-->
+ <title>WellTech Digital Health</title>
+ <link rel="stylesheet" href="AP.css">
+ </head>
+ <body>
+    <br>
+<div class="container">
+
+<div class="info-box">
+Fill out the form below to apply for a position at <b>WellTech</b>.<br>
+Fields marked with * are required.
+</div>
+
+<form>
+
+<fieldset>
+    <legend>Applicant Details</legend>
+
+        <label for="firstname">First Name*</label>
+        <input type="text" name="firstname" id="firstname" pattern="^[a-zA-Z ]+$" required> <!--I got some outside help for the pattern -->
+        <label for="lastname">Last Name*</label>
+        <input type="text" name="lastname" id="lastname" pattern="^[a-zA-Z ]+$" required>
+    <br>
+        <label for="preferredname">Preferred Name</label>
+        <input type="text" name="preferredname" id="preferredname" pattern="^[a-zA-Z ]+$">
+    <br>
+        <label for="dob">Date of Birth*</label>
+        <input type="date" name="dob" id="dob" required>
+    <br>
+        <div id="gender">
+        <label for="gender">Gender</label>
+        <input type="radio" name="gender" id="male"> <label for="male">Male</label>
+        <input type="radio" name="gender" id="female"><label for="female">Female</label>
+        <input type="radio" name="gender" id="other"> <label for="other">Other</label>
+        </div>
+        <label for="address">Street Address*</label>
+        <input type="text" name="address" id="address" required>
+    <br>
+
+        <label for="city">City/Suburb*</label>
+        <input type="text" name="city" id="city" required>
+    <br>
+        <label for="state">State*</label>
+        <select name="state" id="state" required>
+            <option value="">Select</option>
+            <option value="VIC">VIC</option>
+            <option value="NSW">NSW</option>
+            <option value="QLD">QLD</option>
+            <option value="SA">SA</option>
+            <option value="WA">WA</option>
+            <option value="TAS">TAS</option>
+            <option value="ACT">ACT</option>
+            <option value="NT">NT</option>
+        </select>
+    <br>
+        <label>Postcode*</label>
+        <input type="text" name="postcode" required>
+
+</fieldset>
+
+
+<fieldset>
+    <legend>Job Position</legend>
+
+        <label>Position Applying For*</label>
+        <select name="position" required>
+            <option value="">Select Position</option>
+            <option>Software Developer</option>
+            <option>IT Support Specialist</option>
+            <option>Network Engineer</option>
+            <option>Cybersecurity Analyst</option>
+            <option>Web Designer</option>
+        </select>
+    <br>
+        <label>Job Reference*</label>
+        <input type="text" name="jobref" required>
+    <br>
+        <label>Employment Type</label>
+            <input type="radio" name="employment"> Full Time
+            <input type="radio" name="employment"> Part Time
+            <input type="radio" name="employment"> Internship
+</fieldset>
+
+
+<fieldset>
+    <legend>Contact Details</legend>
+        <label>Mobile Number*</label>
+        <input type="tel" name="mobile" placeholder="04xx xxx xxx" required>
+    <br>
+        <label>Email Address*</label>
+        <input type="email" name="email" required>
+    <br>
+        <label>LinkedIn Profile</label>
+        <input type="url" name="linkedin">
+</fieldset>
+
+<fieldset>
+    <legend>Experience</legend>
+        <label>Years of Experience</label>
+        <select name="experience">
+            <option>0-1 years</option>
+            <option>2-3 years</option>
+            <option>4-5 years</option>
+            <option>5+ years</option>
+        </select>
+        <br>
+        <label>Key Skills</label>
+        <textarea rows="3"></textarea>
+    <br>
+        <label>Upload Resume*</label>
+        <input type="file" required>
+</fieldset>
+
+<fieldset>
+    <legend>Submit Application</legend>
+
+        <input type="checkbox" required>
+            I confirm the information provided is accurate.
+    <br><br>
+
+        <input class="submit-btn" type="submit" value="Submit Application">
+
+</fieldset>
+
+</form>
+
+</div>
+
+   <nav class="navbar">
+    <div class="nav-container">
+        <div class="logo">
+    <img src="ImagesAP/WellTech_Logo.png" alt="WellTech Logo">
+    <span>WellTech</span>
+</div>
+
+        <!-- Navigation links -->
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About_page.html">About</a></li>
+            <li><a href="jobs.html">Job Description</a></li>
+            <li><a href="apply.html">Apply</a></li>
+        </ul>
+    </div>
+</nav>
+    </body>
+    </html>
