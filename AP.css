@@ -94,7 +94,7 @@ body {
     background: rgba(0, 20, 40, 0.95); /* dark ocean blue */
     padding: 10px 10px;
 
-    position: static;  
+    position: fixed;  
     top: 0;
     left: 0;
     width: 100%;      /* makes it span full width */
