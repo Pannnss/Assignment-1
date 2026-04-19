@@ -6,6 +6,9 @@
     box-sizing: border-box;
 }
 
+main {
+    margin-top: 80px; /* push content down */
+}
 /* Styles the overall page background and default text */
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -33,6 +36,11 @@ h2 {
     color: #66e0ff; /* softer cyan */
 }
 
+h3 {
+    margin-bottom: 8px;
+    color: #99e5ff; /* even softer cyan */
+}
+
 /* Section container styling */
 .section {
     background-color: rgba(0, 0, 50, 0.6); /* semi-transparent dark blue */
@@ -51,6 +59,10 @@ p {
 
 /* List styling */
 ul {
+    padding-left: 20px;
+}
+
+ol {
     padding-left: 20px;
 }
 
@@ -108,11 +120,6 @@ body {
     align-items: center;
 }
 
-/* Logo styling */
-.logo {
-    color: #00e0ff;
-    font-size: 1.5em;
-}
 
 /* Navigation links list */
 .nav-links {
@@ -132,42 +139,93 @@ body {
     transition: background 0.3s, colour 0.3s;
 }
 
-/* Logo container (image + text aligned) */
-.logo {
-    display: flex;
-    align-items: center;
-    gap: 10px; /* space between image and text */
-}
-
-/* Logo image */
-.logo img {
-    width: 40px;   /* small version */
-    height: 40px;
-    object-fit: contain;
-}
-
-/* Logo text */
-.logo span {
-    color: #00e0ff;
-    font-size: 1.5em;
-    font-weight: bold;
-}
-
 /* Hover effect */
 .nav-links a:hover {
     background-color: #00e0ff;
     color: #002b40;
 }
 
-fieldset {
-   background-color: rgba(0, 0, 50, 0.6); 
-    padding: 15px;
-    margin-bottom: 20px;
-    border-radius: 10px;
+/*
+   Date: 19/04/2026
+   Added: Logo inside navbar*/
+
+/* Logo container */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
-fieldset:hover {
-  transform: scale(1.01);
+/* Logo image */
+.logo img {
+    height: 40px;   /* adjust size if needed */
+    width: auto;
+}
+
+/* Logo text */
+.logo span {
+    color: #00e5ff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Container for all cards */
+.team-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Individual card */
+.card {
+    background: #19539a;
+    border: 2px solid #0072ff;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+}
+
+/* Hover effect */
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Name header */
+.card h3 {
+    margin-top: 0;
+    color: #4bc5f2;
+}
+
+/* Fun Facts Table */
+.fun-facts {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+.fun-facts thead {
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+    color: white;
+}
+
+.fun-facts th {
+    padding: 12px;
+    text-align: left;
+}
+
+/* Body cells */
+.fun-facts td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Row hover effect */
+.fun-facts tbody tr:hover {
+    background-color: #0c4e88;
 }
 legend {
   border: 2px solid #2a7db8;

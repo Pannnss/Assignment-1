@@ -1,125 +1,141 @@
-<!--12/04/2026. creating the About Page html file and putting down the basic title structure down. -->
-
 <!DOCTYPE html>
+
+<!-- 
+     Date: 19/04/2026
+     Added by: Ayden Rao
+     Description:
+     changed the entire code to have the requiremnts for the assesment.
+    
+      -->
+
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="description" content="Group project for the WellTech Digital Health & Wellness Provider. This page provides information about the company, its goals, and its vision for the future of healthcare technology.">
-    <meta name="keywords" content="HTML5, CSS layout">
-    <meta name="author" content="Ayden Rao">
+    <meta charset="UTF-8">
+    <title>Group Info</title>
 
-    <!-- 15/04/2026 added this for customisation forpotential mobile users -->
-    <!-- Ensures the website scales properly on mobile devices -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- I have gotten this from Chatgpt. -->
-<!-- 12/04/2026 -->
-    <!-- Title shown on the browser tab -->
-    <title>WellTech Digital Health</title>
-<!-- 16/04/2026 -->
-    <!-- Links the external CSS file to style and customise the page -->
+    <!-- Link to CSS -->
     <link rel="stylesheet" href="AP.css">
 </head>
+
 <body>
-<!-- 12/04/2026 -->
-    <!-- Main heading of the webpage -->
-    <h1>WellTech: Digital Health & Wellness Provider</h1>
-<!-- 13/04/2026. the first paragraph section about who we are as a "company" -->
-    <!-- Section: Who We Are -->
-    <!-- This section describes the company background and purpose -->
-    <div class="section">
-        <h2>Who We Are</h2>
-        <p>
-            WellTech is a leading digital health and wellness provider committed to modernising the way people interact with healthcare. 
-            As a private healthcare technology company, we specialise in building innovative digital solutions that improve access, 
-            efficiency, and patient experience across the healthcare system.
-        </p>
-    </div>
-<!-- 13/04/2026. added What we do as a "company" -->
-    <!-- Section: What We Do -->
-    <!-- Explains the services and systems the company develops -->
-    <div class="section">
-        <h2>What We Do</h2>
-        <p>
-            Our expanding digital services team develops and maintains secure online patient platforms, streamlined appointment 
-            booking systems, and reliable health information websites. These tools are designed to simplify healthcare access, 
-            making it easier for patients to connect with providers and manage their wellbeing in one place.
-        </p>
-    </div>
-<!-- 14/04/2026. added Our Goals section on what we want to achieve as a "company" -->
-    <!-- Section: Our Goals -->
-    <!-- Displays a list of the company’s key objectives -->
-    <div class="section">
-        <h2>Our Goals</h2>
-        <ul>
-            <li>Improve accessibility to healthcare through digital platforms</li>
-            <li>Enhance patient experience with simple, user-friendly systems</li>
-            <li>Support healthcare professionals with efficient, reliable tools</li>
-            <li>Ensure the highest standards of data security and privacy</li>
-            <li>Continuously innovate to meet evolving healthcare needs</li>
-        </ul>
-    </div>
-<!-- 14/04/2026. added What We Aim to Achieve section -->
-    <!-- Section: What We Aim to Achieve -->
-    <!-- Describes the long-term purpose and outcomes the company wants to reach -->
-    <div class="section">
-        <h2>What We Aim to Achieve</h2>
-        <p>
-            At WellTech, we aim to create a fully connected digital healthcare environment where patients can easily access services, 
-            book appointments, and find trusted information anytime, anywhere. We strive to reduce barriers to care, improve 
-            communication between patients and providers, and contribute to better overall health outcomes.
-        </p>
-    </div>
-<!-- 15/04/2026. added Future Vision section  -->
-    <!-- Section: Future Vision -->
-    <!-- Outlines the company’s plans for growth and innovation -->
-    <div class="section">
-        <h2>Our Vision for the Future</h2>
-        <p>
-            We are driven to expand our digital capabilities and lead the future of healthcare technology. By combining innovation 
-            with a strong understanding of real-world healthcare challenges, WellTech is committed to delivering smarter, more connected, 
-            and more personalised healthcare experiences for everyone.
-        </p>
-    </div>
-<!-- 15/04/2026. added External Health Resources section -->
-    <!-- Section: External Health Resources -->
-    <!-- Contains clickable image links (thumbnails) that direct users to trusted Australian health websites -->
-    <div class="section">
-        <h2>Helpful Health Resources</h2>
 
-        <!-- Container used to organise the image links side-by-side -->
-        <div class="links">
-            <!--16/04/2026  did the research and added the links to the page, using a thumbnail for the link cover.  -->
-            <!-- Link to Health.gov.au -->
-            <!-- The image acts as a clickable thumbnail -->
-            <a href="https://www.health.gov.au/?language=en" target="_blank">
-                <img src="ImagesAP/blackandwhite.png" alt="Health.gov.au">
-            </a>
-            <!--16/04/2026. the other link to an Australian health information sight and the thumbnail for the link  -->
-            <!-- Link to Australian Institute of Health and Welfare (AIHW) -->
-            <!-- Opens in a new tab when clicked -->
-            <a href="https://www.aihw.gov.au" target="_blank">
-                <img src="ImagesAP/whiteandblue.png" alt="AIHW">
-            </a>
-
-        </div>
+   <nav class="navbar">
+    <div class="logo">
+        <img src="ImagesAP/WellTech_logo.png" alt="WellTech Logo">
+        <span>BestWebDevsInTown</span>
     </div>
 
-    <!-- Navigation Bar -->
-<nav class="navbar">
-    <div class="nav-container">
-        <div class="logo">
-    <img src="ImagesAP/WellTech_Logo.png" alt="WellTech Logo">
-    <span>WellTech</span>
-</div>
-
-        <!-- Navigation links -->
-        <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="About_page.html">About</a></li>
-            <li><a href="jobs.html">Job Description</a></li>
-            <li><a href="apply.html">Apply</a></li>
-        </ul>
-    </div>
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="jobs.html">Job Description</a></li>
+        <li><a href="apply.html">Apply</a></li>
+        <li><a href="about.html">About</a></li>
+    </ul>
 </nav>
+
+    <!-- Main Content -->
+    <main>
+
+        
+        <!-- Group Info -->
+<section>
+    <h2>Group Information</h2>
+
+    <ul>
+        <li>
+            Group Name: BestWebDevsInTown
+            <ul>
+                <li>Class Day: Thursday</li>
+                <li>Time: 12:30 PM</li>
+            </ul>
+        </li>
+    </ul>
+</section>
+
+        <!-- Contributions -->
+
+   <section>
+    <h2>Member Contributions</h2>
+
+    <div class="team-container">
+
+        <div class="card">
+            <h3>Panha</h3>
+            <p>Home webpage creator and GitHub repository creator</p>
+            <p>Quote (Khmer): "គ្រប់ផ្លូវនាំទៅរ៉ូម។"</p>
+            <p>Quote (English): “It’s opinions based”</p>
+        </div>
+
+        <div class="card">
+            <h3>Elijah</h3>
+            <p>Job description webpage creator and logo design</p>
+            <p>Quote (Italian): "io non parlo inglese"</p>
+            <p>Quote (English): "I do not speak english"</p>
+        </div>
+
+        <div class="card">
+            <h3>Robin</h3>
+            <p>Apply webpage creator, fixing and checking code</p>
+            <p>Quote (Spanish): "El que lee mucho y anda mucho, ve mucho y sabe mucho." - Miguel de Cervantes</p>
+            <p>Quote (English): "He who reads a lot and travels a lot sees a lot and knows a lot."</p>
+        </div>
+
+        <div class="card">
+            <h3>Ayden</h3>
+            <p>About webpage creator and Jira board creator</p>
+            <p>Quote (German): "Mosambik hier"</p>
+            <p>Quote (English): "Mozambique here"</p>
+        </div>
+
+    </div>
+</section>
+    
+
+        <!-- Group Photo -->
+        <section>
+            <h2>Group Photo</h2>
+            <figure>
+                <img src="group-photo.jpg" alt="Group Photo" width="300">
+                <figcaption>Group Photo Caption</figcaption>
+            </figure>
+        </section>
+
+  <!-- Fun Facts -->
+<section>
+    <h2>Fun Facts</h2>
+
+    <table class="fun-facts">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Fun Fact</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Panha</td>
+                <td>I had both my wisdom teeth taken out at the same time</td>
+            </tr>
+
+            <tr>
+                <td>Elijah</td>
+                <td>If you took 1 step every second for a whole day, you would walk very far</td>
+            </tr>
+
+            <tr>
+                <td>Robin</td>
+                <td>My mother lives in Spain</td>
+            </tr>
+
+            <tr>
+                <td>Ayden</td>
+                <td>I am double jointed in 5 spots on my body</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    
 
 </body>
 </html>
