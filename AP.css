@@ -6,6 +6,9 @@
     box-sizing: border-box;
 }
 
+main {
+    margin-top: 80px; /* push content down */
+}
 /* Styles the overall page background and default text */
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -108,11 +111,6 @@ body {
     align-items: center;
 }
 
-/* Logo styling */
-.logo {
-    color: #00e0ff;
-    font-size: 1.5em;
-}
 
 /* Navigation links list */
 .nav-links {
@@ -132,47 +130,33 @@ body {
     transition: background 0.3s, colour 0.3s;
 }
 
-/* Logo container (image + text aligned) */
-.logo {
-    display: flex;
-    align-items: center;
-    gap: 10px; /* space between image and text */
-}
-
-/* Logo image */
-.logo img {
-    width: 40px;   /* small version */
-    height: 40px;
-    object-fit: contain;
-}
-
-/* Logo text */
-.logo span {
-    color: #00e0ff;
-    font-size: 1.5em;
-    font-weight: bold;
-}
-
 /* Hover effect */
 .nav-links a:hover {
     background-color: #00e0ff;
     color: #002b40;
 }
 
-fieldset {
-   background-color: rgba(0, 0, 50, 0.6); /* semi-transparent dark blue */
-    padding: 15px;
-    margin-bottom: 20px;
-    border-radius: 10px;
+/*
+   Date: 19/04/2026
+   Added: Logo inside navbar*/
+
+/* Logo container */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
-fieldset:hover {
-  transform: scale(1.01);
+/* Logo image */
+.logo img {
+    height: 40px;   /* adjust size if needed */
+    width: auto;
 }
-legend {
-  border: 2px solid #2a7db8;
-  padding: 5px 12px;
-  border-radius: 6px;
-  background-color: rgba(27, 25, 42, 0.674);
-  font-weight: bold;
+
+/* Logo text */
+.logo span {
+    color: #00e5ff;
+    font-size: 20px;
+    font-weight: bold;
 }
+
