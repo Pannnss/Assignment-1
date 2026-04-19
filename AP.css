@@ -23,7 +23,7 @@ body {
 
 /* Main heading styling */
 h1 {
-    text-align: centre; /* centres the heading */
+    text-align: center; /* centres the heading */
     font-size: 2.5em;
     margin-bottom: 20px;
 
@@ -83,7 +83,7 @@ li {
 .links img:hover {
     transform: scale(1.1); /* slightly enlarges image */
     box-shadow: 0 0 15px #00ffff;
-} */
+} 
 
 body {
     padding-top: 70px; /* pushes content down below navbar */
