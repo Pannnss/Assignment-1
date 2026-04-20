@@ -379,6 +379,41 @@ footer a:hover {
   font-size: 12px;
 }
 
+.aboriginal {
+  background-color: rgba(0, 0, 50, 0.6);
+  border-radius: 10px;
+  padding: 24px 32px;
+  display: flex; /*lines up the flag and text side by side */
+  align-items: center; /* centres the flag and text vetically */
+  gap: 24px;
+  border-left: 4px solid #e8a020;/*gold left border because its pretty*/
+}
+
+.aboriginal-flag {
+  width: 72px;
+  height: 44px;
+  border-radius: 4px;
+  object-fit: cover;/*makes the image fill the space*/
+  flex-shrink: 0;
+}
+
+.aboriginal-text {
+  color: #c0d8e8;
+  font-size: 13px;
+  line-height: 1.7;
+  font-style: italic;
+  margin: 0;
+}
+
+.aboriginal-text strong {
+  display: block; /* puts the heading on its own line*/
+  color: #7dd3e8;
+  font-style: normal;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
 .searchbar {
     display: flex;
     justify-content: right;
