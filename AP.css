@@ -24,7 +24,7 @@ body {
 /* Main heading styling */
 h1 {
     text-align: center; /* centres the heading */
-    font-size: 2.5em;
+    font-size: 2.3em;
     margin-bottom: 20px;
 
     color: #00e0ff; /* bright cyan */
@@ -466,4 +466,21 @@ h1.H1exp {
     margin-top: 20px;
     margin-bottom: 20px;
     box-shadow: 0 0 10px rgba(0, 255, 255, 0.2);
+    color: #00c3dd;
+}
+
+.joblink {
+    font-size: 1.05em;
+    color: #99e5ff;
+}
+/*I got help from gen ai to make the label not visible */
+.searchlabel {
+    position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  border: 0;
 }
