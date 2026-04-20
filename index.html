@@ -14,7 +14,6 @@
 </head>
 
 <body>
-
     <nav class="navbar">
         <div class="nav-container">
             <div class="logo">
@@ -33,12 +32,13 @@
         </div>
         <section>
     </nav>
+    <div class="searchbar">
+                <form action="/search" method="get">
+                    <input type="search" id="site-search" name="q" placeholder="Search...">
+                    <button type="submit">Search</button>
+                </form>
+            </div>
     <h1 class="H1exp">Welcome to WellTech</h1>
-    <form action="/search" method="get">
-        <input type="search" id="site-search" name="q" placeholder="Search...">
-        <button type="submit">Search</button>
-    </form>
-    <br>
     </section>
     <section>
         <h2>About Us</h2>
@@ -75,26 +75,19 @@
             water, and community.*
         </p>
     </section>
-    <section class="footer">
-        <footer>
-            <div class="container">
-                <h3>USEFUL LINKS</h3>
-                <ul>
-                    <li><a
-                            href="https://aydenrao.atlassian.net/jira/core/projects/BG/board?cloudId=ce8f769f-9671-42e4-b406-1f25b0a991ca&filter=assignee%20%3D%20%22712020%3Aa386c260-4c9d-4f69-94ae-87916d33d797%22&groupBy=status">Jira</a>
-                    </li>
-                    <li><a href="https://github.com/Pannnss/Assignment-1">GitHub Repository</a></li>
-                </ul>
-                <h3>CONTACT US</h3>
-                <ul>
-                    <li><a href="mailto:info@welltech.com">Email</a></li>
-                </ul>
-                <p>&copy; 2026 <em>BestWebDevsInTown</em></p>
-            </div>
-        </footer>
-    </section>
-    <br>
-
+    <div class="footer">
+        <div class="column-1">
+            <h3>USEFUL LINKS</h3>
+            <a
+                href="https://aydenrao.atlassian.net/jira/core/projects/BG/board?cloudId=ce8f769f-9671-42e4-b406-1f25b0a991ca&filter=assignee%20%3D%20%22712020%3Aa386c260-4c9d-4f69-94ae-87916d33d797%22&groupBy=status">Jira</a>
+            <a href="https://github.com/Pannnss/Assignment-1">GitHub</a></li>
+        </div>
+        <div class="column-2">
+            <h3>CONTACT US</h3>
+            <a href="mailto:info@welltech.com">Email</a></li>
+        </div>
+        <h4>&copy; 2026 <em>BestWebDevsInTown</em></h4>
+    </div>
 </body>
 
 </html>
