@@ -24,7 +24,7 @@ body {
 /* Main heading styling */
 h1 {
     text-align: center; /* centres the heading */
-    font-size: 2.5em;
+    font-size: 2.3em;
     margin-bottom: 20px;
 
     color: #00e0ff; /* bright cyan */
@@ -446,6 +446,5 @@ footer a:hover {
 h1.H1exp {
     text-align: center;
     font-size: 3em;
-    color: #00e0ff;
-    -webkit-text-stroke: #ffffff 1px;
+    color: #00c3dd;
 }
