@@ -449,3 +449,8 @@ h1.H1exp {
     color: #00e0ff;
     -webkit-text-stroke: #ffffff 1px;
 }
+
+.joblink {
+    font-size: 1.05em;
+    color: #99e5ff;
+}
