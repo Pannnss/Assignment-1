@@ -325,25 +325,58 @@ td {
 
 }
 
-.footer {
-    margin-top: 150px;
-    margin-top: 30px;
-    width: 100%;
-    padding: 30px;
-    background-color: rgba(0, 20, 40, 0.95); /* dark ocean blue */
-    color: #e6f7ff;
-    letter-spacing: 1px;
-    text-align: center;
+footer {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 28px 48px;
+  background-color: rgba(0, 20, 40, 0.95);
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* pushes footer-left to the left and footer-copy to the right */
+  flex-wrap: wrap;
+  gap: 16px;
+  letter-spacing: 1px;
 }
 
-.footer a {
-    color: #00e0ff;
-    text-decoration: none;
-
+.footer-left {
+  display: flex; /* lines up the brand, divider, and links side by side */
+  align-items: center;
+  gap: 20px; /* adds space between the brand, divider, and links */
 }
 
-.footer a:hover {
-    text-decoration: underline;
+.footer-brand {
+  color: #7dd3e8;
+  font-weight: 600; /* makes the brand name stronger */
+  font-size: 15px;
+}
+
+.footer-divider {
+  width: 1px; /* makes the divider a thin vertical line */
+  height: 14px; /*sets the hegiht of the divider*/
+  background: #1e3448;
+}
+
+.footer-links {
+  display: flex; /* lines up the links side by side */
+  gap: 20px;
+}
+
+footer a {
+  color: #7dd3e8;
+  font-size: 13px;
+  text-decoration: none;
+  padding: 4px 10px; /* adds space around the text*/
+  border-radius: 20px; /* rounds the edges so less sharp */
+}
+
+footer a:hover {
+  text-decoration: underline; 
+  background-color: #0953c257;
+}
+
+.footer-copy {
+  color: #3a5a6a;
+  font-size: 12px;
 }
 
 .searchbar {
