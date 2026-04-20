@@ -174,12 +174,11 @@ body {
 
 /* Individual card */
 .card {
-    background: #19539a;
-    border: 2px solid #0072ff;
+    background: rgba(0, 0, 50, 0.6); /* semi-transparent dark blue */
     border-radius: 12px;
     padding: 15px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     transition: transform 0.2s ease;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.2);
 }
 
 /* Hover effect */
@@ -210,12 +209,15 @@ body {
 .fun-facts th {
     padding: 12px;
     text-align: left;
+    background-color: rgba(0, 0, 50, 0.6);
 }
 
 /* Body cells */
 .fun-facts td {
     padding: 12px;
     border-bottom: 1px solid #ddd;
+    background-color: rgba(0, 0, 22, 0.6);
+
 }
 
 /* Row hover effect */
