@@ -453,3 +453,14 @@ h1.H1exp {
     font-size: 1.05em;
     color: #99e5ff;
 }
+/*I got help from gen ai to make the label not visible */
+.searchlabel {
+    position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  border: 0;
+}
