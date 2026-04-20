@@ -7,39 +7,56 @@
     <meta name="keywords" content="HTML, CSS, PHP">
     <meta name="author" content="Group 01 - Panha, Robin, Elijah, Ayden">
     <title>Digital Health & Wellness Provider: WellTech</title>
+    <link rel="stylesheet" href="AP.css">
+    <link rel="icon" type="image/icon" href="WellTech_Logo.PNG">
+
+
 </head>
 
 <body>
-    <section>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="jobs.html">Jobs</a>
-            <a href="apply.html">Apply</a>
-            <a href="about.html">About</a>
-        </nav>
-        <h1>WELCOME TO WELLTECH</h1>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="ImagesAP/WellTech_Logo.png" alt="WellTech Logo">
+                <span>WellTech </span>
+                <p><b><em>-- "Empowering Health Through Technology"</em></b></p>
+            </div>
+
+            <!-- Navigation links -->
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="jobs.html">Job Description</a></li>
+                <li><a href="apply.html">Apply</a></li>
+            </ul>
+        </div>
+    </nav>
+     <section> 
+    <div class="searchbar">
         <form action="/search" method="get">
-            <input type="search" id="site-search" name="q" placeholder="Search...">
+            <input type="search" id="site-search" name="q" title="searchbar" placeholder="Search...">
             <button type="submit">Search</button>
         </form>
-        <br>
-        <img src="webbing_teching_transparent_logo.PNG" alt="WellTech Logo" width="100" height="100">
-        <p><b><em>Empowering Health Through Technology</em></b></p>
+    </div>
+    <h1 class="H1exp">Welcome to WellTech</h1>
     </section>
-    <section>
+    <section class="section">
         <h2>About Us</h2>
         <p>A private healthcare technology company expanding its digital services team to support online patient
             platforms, appointment systems, and health information websites.
         </p>
+        <h2>Why apply?</h2>
         <p>Join a collaborative, innovative environment where your work directly improves patient experiences and
             supports healtcare providers. You’ll be part of a team that values creative problem-solving, continuous
             learning, while making healthcare more accessible, efficient, and personalized.
         </p>
     </section>
-
-    <table border>
+    <table class="metrics-table">
+        <tr> 
+            <th colspan="2">Key Metrics</th>
+        </tr>
         <tr>
-            <th>Metrics</th>
+            <th>Metric</th>
             <th>Value</th>
         </tr>
         <tr>
@@ -52,19 +69,33 @@
         </tr>
         <tr>
             <td>Current staff</td>
-            <td>15</td>
+            <td>4</td>
         </tr>
     </table>
-    <br>
-    <section class="footer">
-        <footer>
-            <a
-                href="https://aydenrao.atlassian.net/jira/core/projects/BG/board?cloudId=ce8f769f-9671-42e4-b406-1f25b0a991ca&filter=assignee%20%3D%20%22712020%3Aa386c260-4c9d-4f69-94ae-87916d33d797%22&groupBy=status">Jira</a>
-            <a href="https://github.com/Pannnss/Assignment-1">GitHub Repository</a>
-            <a href="mailto:info@welltech.com">Email</a>
-            <p>&copy; 2026 <em>BestWebDevsInTown</em></p>
-        </footer>
-    </section>
+    <section class="aboriginal-section">
+  <div class="aboriginal">
+    <img src="pngtree-grunge-aboriginal-flag-vector-aborigines-australia-vector-png-image_5036026.png" alt="Aboriginal flag" class="aboriginal-flag">
+    <p class="aboriginal-text">
+      <strong>Acknowledgement of Country</strong>
+      WellTech acknowledges the Traditional Custodians of the lands on which we live, learn,
+      and work, and pays respects to Elders past and present. We recognise their continuing
+      connection to land, water, and community.
+    </p>
+  </div>
+</section>
+<br>
+    <footer>
+  <div class="footer-left">
+    <span class="footer-brand">BestWebDevsInTown</span>
+    <div class="footer-divider"></div>
+    <div class="footer-links">
+      <a href="https://aydenrao.atlassian.net/jira/core/projects/BG/board?cloudId=ce8f769f-9671-42e4-b406-1f25b0a991ca&filter=assignee%20%3D%20%22712020%3Aa386c260-4c9d-4f69-94ae-87916d33d797%22&groupBy=status">Jira</a>
+      <a href="https://github.com/Pannnss/Assignment-1">GitHub</a>
+      <a href="mailto:info@welltech.com">Email</a>
+    </div>
+  </div>
+  <span class="footer-copy">&copy; 2026</span>
+</footer>
 </body>
 
 </html>
