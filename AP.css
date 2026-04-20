@@ -300,3 +300,48 @@ fieldset:hover{
   transform: scaleX(1);
 }
 
+.metrics-table {
+    text-align: left;
+    min-height: 130px;
+    background-color: rgba(0, 0, 50, 0.6);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 18px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.2);
+
+}
+
+th {
+    color: #00e0ff;
+    font-size: 1.2em;
+    border-bottom: 2px solid #ffffff;
+}
+
+td {
+    color: #e6f7ff;
+    font-size: 1.05em;
+    
+}
+.footer {
+
+    display: flex;
+    margin-top: 30px;
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(0, 20, 40, 0.95); /* dark ocean blue */
+    color: #e6f7ff;
+    letter-spacing: 1px;
+    
+}
+
+.footer a {
+    color: #00e0ff;
+    text-decoration: none;
+
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
