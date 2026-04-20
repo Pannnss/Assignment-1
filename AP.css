@@ -458,7 +458,7 @@ h1.H1exp {
 
 .aside {
     background-color: rgba(0, 0, 50, 0.6);
-    display; grid;
+    display: grid;
     grid-template-rows: 3fr 1fr;
     float: right;
     border-radius: 10px;
